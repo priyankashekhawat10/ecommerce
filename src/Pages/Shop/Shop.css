@@ -1,0 +1,757 @@
+.shop1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 550px;
+    justify-content: space-between;
+    gap: 10px;
+    
+    padding: 100px 50px 50px 80px;
+    width: 100%;
+}
+
+
+
+
+.tshirt {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 250px 400px;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+
+
+}
+
+.tshirt1 {
+    border: 3px solid ;
+
+}
+
+.tshirt3 {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 150px;
+    gap: 20px;
+}
+
+.tshirt3 img {
+    height: 150px;
+    width: 150px;
+    border: none;
+
+}
+
+.tshirt1 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.tshirtS {
+    border: 2px solid black;
+    text-align: left;
+
+
+
+
+}
+
+.tshirt-h {
+    font-size: 40PX;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+.ratings {
+    padding: 10px 10px 10px 10px;
+}
+
+.stars {
+    padding: 10px;
+}
+
+span {
+    color: grey;
+}
+
+.graphic {
+    color: #00000099;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+/* COLOR SECTION */
+.color-section {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* COLORS WRAPPER */
+.colors {
+  display: flex;
+
+  /* background-color: #6b5d3b; */
+  align-items: center;
+  justify-content: start;
+}
+
+/* EACH CIRCLE */
+.color-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* COLORS */
+.brown {
+  background: #6b5d3b;
+}
+
+.green {
+  background: #2f4f4f;
+}
+
+.blue {
+  background: #2c2c54;
+}
+/* 
+.color {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    gap: 10px;
+
+}
+
+.colors {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 0px 5px 5px 5px;
+    background-color: brown;
+} */
+
+.size {
+    color: grey;
+    padding: 10px 10px 20px 10px;
+
+}
+
+.sizes1 {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.sizes11 {
+    height: 40px;
+    width: 100px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    color: grey;
+}
+
+.sizes111 {
+    height: 40px;
+    width: 100px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+
+}
+
+.items {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    padding: 20px 30px 10px 10px;
+
+}
+
+.item {
+    height: 40px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+}
+
+.item1 {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+}
+@media (max-width: 1290px){
+    .shop1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 550px;
+    justify-content: center;
+    gap: 30px;
+    background-color: aqua;
+    padding: 100px 50px 50px 80px;
+    width: 100%;
+}
+    
+.tshirt {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 200px 400px;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+
+
+}
+.tshirt1 img {
+    width: 100%;
+    height: 100%;
+
+}
+}
+@media (max-width: 1215px){
+    .shop1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 550px;
+    justify-content: center;
+    gap: 30px;
+    background-color: aqua;
+    padding: 100px 50px 50px 80px;
+    width: 100%;
+}
+.tshirt {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 350px 450px;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+
+
+}
+.tshirt3 img {
+    width: 100%;
+    height: 100%;
+
+
+}
+}
+
+
+@media (max-width: 1024px) {
+
+    .shop1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 50px 30px;
+    }
+    .tshirt {
+    border: 2px solid black;
+     display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 350px 350px;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 20px 10px 20px; 
+
+
+}
+
+    /* .tshirt {
+        grid-template-columns: 120px 1fr;
+        justify-content: center;
+    } */
+     .tshirt3 img{
+height: 100%;
+width: 100%;
+     }
+
+    .tshirt3 {
+        width: 120px;
+        height: 100px;
+        background-color: red;
+    }
+
+    
+
+    .tshirt-h {
+        font-size: 30px;
+    }
+
+}
+
+
+
+
+@media (max-width:768px) {
+
+    .shop1 {
+        grid-template-columns: 1fr;
+        
+        padding: 30px 15px;
+    }
+
+    .tshirt {
+    border: 2px solid black;
+     display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 350px 350px;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 20px 10px 20px; 
+
+
+}
+
+    /* thumbnails horizontal */
+    .tshirt3 {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .tshirt3 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .tshirt1 {
+        order: -1;
+
+    }
+
+    .tshirt-h {
+        font-size: 24px;
+    }
+
+    .sizes1 {
+        flex-wrap: wrap;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .item1 {
+        width: 80px;
+    }
+
+}
+@media (max-width:397px){
+.tshirt3{
+margin-top: 200px;
+}
+.tshirt {
+    border: 2px solid black;
+     display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 350px 350px;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 20px 10px 20px; 
+
+
+}
+.tshirt1{
+    height: 450px;
+}
+.tshirt-h{
+font-size: 20px;
+}
+}
+
+
+.faq {
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.faqp {
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.faqp1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.latest {
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.reviews-header {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.reviews-left h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.latest1 {
+    color: gray;
+    font-size: 18px;
+}
+
+
+.reviews-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.filter-btn {
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+
+    cursor: pointer;
+}
+
+
+.latest {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 90px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.write-btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+
+    .reviews-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .reviews-right {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .write-btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+}
+
+ /* .fabric {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 300px 300px 300px;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid none;
+
+}
+
+.fabric1 {
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+    height: 300px;
+    width: 600px;
+}
+
+.dot {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 10px 10px;
+}
+
+.starf {
+    font-size: 23px;
+}
+
+.dots {
+    font-size: 25px;
+    border: none;
+    background: none;
+}
+
+.s {
+    margin-top: 10px;
+
+}
+
+.go {
+    margin-top: 10px;
+    color: #00000099;
+    font-size: 15px;
+}
+
+.post {
+    margin-top: 20px;
+    color: #00000099;
+    font-size: 25px;
+}
+
+.load {
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    margin-left: 550px;
+}  */
+
+.fabric {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.fabric1 {
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 20px 30px;
+    min-height: 250px;
+    width: 100%;
+}
+
+.dot {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.starf {
+    font-size: 20px;
+}
+
+.dots {
+    font-size: 22px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.s {
+    margin-top: 10px;
+}
+
+.go {
+    margin-top: 10px;
+    color: #00000099;
+    font-size: 15px;
+}
+
+.post {
+    margin-top: 20px;
+    color: #00000099;
+    font-size: 16px;
+}
+
+.load {
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+@media (max-width: 1024px){
+
+.fabric{
+grid-template-columns: repeat(2,1fr);
+}
+
+}
+@media (max-width: 768px){
+
+.fabric{
+grid-template-columns: 1fr;
+}
+
+.starf{
+font-size:18px;
+}
+
+.post{
+font-size:14px;
+}
+
+} 
+
+.selling2 {
+    padding: 60px 80px;
+    text-align: center;
+   
+
+}
+
+.selling-title2 {
+    font-size: 50px;
+    font-weight: 800px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+
+}
+
+.selling-container2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+
+}
+
+.card2 {
+
+    text-align: left;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card2-img {
+    background: #f3f3f3;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.card1-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+
+
+
+
+.card2 h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+.price2 {
+    margin-top: 5px;
+}
+
+.price2 h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+.view2 {
+    margin-top: 50px;
+    padding: 12px 40px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background: white;
+    cursor: pointer;
+    font-weight: 800px;
+}
+
+
+.view2:hover {
+    background: black;
+    color: white;
+}
+
+
+
+
+
+@media(max-width:992px) {
+
+    .selling2 {
+        padding: 50px 30px;
+    }
+
+    .selling-container2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .selling-title2 {
+        font-size: 35px;
+    }
+
+}
+
+
+
+
+
+@media(max-width:600px) {
+
+    .selling2 {
+        padding: 40px 20px;
+    }
+
+    .selling-container2 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .selling-title2 {
+        font-size: 28px;
+    }
+
+    .card2-img img {
+        height: 200px;
+    }
+
+    .view2 {
+        width: 100%;
+    }
+
+}

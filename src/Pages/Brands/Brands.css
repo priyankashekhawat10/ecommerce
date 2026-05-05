@@ -1,0 +1,248 @@
+
+  .cart{
+width:100%;
+margin-top:30px;
+padding:10px 30px;
+
+
+}
+
+.para01{
+font-size:30px;
+text-transform:uppercase;
+font-weight:900;
+margin-bottom:20px;
+}
+
+
+
+.cart1{
+display:grid;
+grid-template-columns: 2fr 1fr;
+gap:20px;
+align-items:start;
+}
+
+
+
+.cart01{
+border:1px solid #ddd;
+border-radius:10px;
+padding:20px;
+}
+
+
+
+
+.check{
+display:flex;
+align-items:center;
+justify-content:space-between;
+border-bottom:1px solid #eee;
+padding:20px 0;
+/* background-color: rgb(106, 67, 18); */
+}
+
+.check-right{
+display:flex;
+flex-direction:column;
+align-items:flex-end;
+/* background-color: aquamarine; */
+gap:15px;
+}
+
+.delete-icon{
+font-size:22px;
+color:red;
+cursor:pointer;
+}
+
+
+
+.check-img{
+height:110px;
+width:120px;
+background:#eee;
+border-radius:10px;
+
+}
+.check-img img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Content */
+
+.check-content{
+flex:1;
+margin-left:20px;
+/* background-color: red; */
+}
+
+.check-content h3{
+font-size:18px;
+margin-bottom:5px;
+}
+
+.check-content p{
+font-size:14px;
+color:gray;
+}
+
+.check-content h2{
+margin-top:5px;
+}
+
+
+/* Quantity */               
+
+.check-qty{
+display:flex;
+gap:15px;
+background:#f5f5f5;
+padding:8px 15px;
+border-radius:20px;
+}
+
+
+
+
+.cart02{
+border:1px solid #ddd;
+border-radius:10px;
+padding:20px;
+}
+
+
+.summary-title{
+margin-bottom:20px;
+}
+
+.summary-row{
+display:flex;
+justify-content:space-between;
+margin:10px 0;
+}
+
+.total{
+font-weight:900;
+font-size:18px;
+}
+
+
+
+.promo{
+display:flex;
+gap:10px;
+margin-top:20px;
+}
+
+.promo input{
+flex:1;
+padding:10px;
+border-radius:20px;
+border:1px solid #ddd;
+}
+
+.promo button{
+padding:10px 20px;
+border:none;
+background:black;
+color:white;
+border-radius:20px;
+}
+
+
+
+
+.checkout{
+width:100%;
+margin-top:20px;
+padding:15px;
+background:black;
+color:white;
+border:none;
+border-radius:30px;
+font-size:16px;
+cursor:pointer;
+}
+
+
+@media (max-width:1024px){
+
+.cart1{
+grid-template-columns: 1fr;
+}
+
+.cart02{
+margin-top:20px;
+}
+
+}
+
+
+
+@media (max-width:768px){
+
+.cart{
+padding:10px 15px;
+}
+
+/* check ko change nahi karna */
+
+.check{
+flex-direction:row;
+align-items:center;
+}
+
+.check-img{
+height:90px;
+width:100px;
+}
+
+}
+
+
+/* Mobile */
+
+@media (max-width:480px){
+
+.para01{
+font-size:22px;
+}
+
+.check{
+padding:15px 0;
+}
+
+.check-content h3{
+font-size:15px;
+}
+
+.check-content h2{
+font-size:17px;
+}
+
+.check-qty{
+padding:6px 10px;
+gap:8px;
+}
+
+.checkout{
+padding:12px;
+font-size:14px;
+}
+.check-img img{
+    height: 100%;
+    width: 100%;
+}
+
+
+}
+.pp{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
