@@ -32,7 +32,7 @@ export default function Home() {
       <div className='cloth'>
         <div className="detail fade-up">
           <h1>
-            FIND CLOTHES <br />
+            FIND CLOTHES Aadil<br />
             THAT MATCHES <br />
             YOUR STYLE
           </h1>
