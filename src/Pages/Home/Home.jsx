@@ -33,7 +33,7 @@ export default function Home() {
         <div className="detail fade-up">
           <h1>
             FIND CLOTHES Aadil<br />
-            THAT MATCHES <br />
+            THAT MATCHES priyanka <br />
             YOUR STYLE
           </h1>
           <p>
